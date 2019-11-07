@@ -2,7 +2,6 @@
     "name": "react-anttd",
     "title": "react antd tent",
     "version": "0.0.1",
-    "private": true,
     "dependencies": {
         "animejs": "^3.1.0",
         "antd": "^3.20.7",
@@ -19,7 +18,11 @@
         "url-loader": "1.1.2"
     },
     "devDependencies": {
-        "@babel/core": "7.2.2",
+        "@babel/core": "7.2.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cherishXin/react-anttd.git"
     },
     "scripts": {
         "start": "node scripts/start.js",
