@@ -1,0 +1,35 @@
+{
+    "name": "react-anttd",
+    "title": "react antd tent",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "animejs": "^3.1.0",
+        "antd": "^3.20.7",
+        "axios": "^0.18.0",
+        "mockjs": "^1.0.1-beta3",
+        "query-string": "^6.2.0",
+        "react": "^16.8.1",
+        "react-dom": "^16.8.1",
+        "react-redux": "^6.0.0",
+        "react-router-config": "^4.4.0-beta.6",
+        "react-router-dom": "^4.3.1",
+        "resolve": "1.10.0",
+        "size-sensor": "^0.2.5",
+        "url-loader": "1.1.2"
+    },
+    "devDependencies": {
+        "@babel/core": "7.2.2",
+    },
+    "scripts": {
+        "start": "node scripts/start.js",
+        "build": "node scripts/build.js",
+        "test": "node scripts/test.js",
+        "storybook": "start-storybook -s ./public -p 6006",
+        "build-storybook": "build-storybook",
+        "dll": "webpack --progress --config config/webpack.dll.config.js"
+    },
+    "homepage": ".",
+    "description": "react antd tent version",
+    "author": "hzl"
+}

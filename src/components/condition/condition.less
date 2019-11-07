@@ -1,0 +1,79 @@
+@primary-color: #E4001C;
+
+.condition.default {
+    &>.ant-form {
+        padding: 10px;
+    }
+}
+
+.condition.less {
+    &>.ant-form {
+        &>.row>.col {
+            display: inline-block;
+            &>.ant-form-item {
+                margin-right: 0;
+            }
+        }
+    }
+}
+.condition {
+    .ant-calendar {
+        width: 230px;
+    }
+}
+
+.condition.more {
+    padding-top: 10px;
+
+    .row {
+        padding: 0 15px;
+
+        .col {
+            .ant-form-item {
+                margin-bottom: 10px;
+
+                .ant-form-item-label {
+                    line-height: 19.9999px;
+
+                    label {
+                        line-height: 24.9999px;
+
+                        &:after {
+                            content: none;
+                        }
+                    }
+                }
+
+                .ant-form-item-control {
+                    height: 30px;
+                    line-height: 30px;
+
+                    .time-radio {
+                        position: relative;
+                        top: -57px;
+                        float: right;
+
+                        .time-radio-item {
+                            border: none !important;
+                            background: transparent;
+                            padding: 0 5px;
+
+                            &::before {
+                                content: none;
+                            }
+
+                            &.ant-radio-button-wrapper-checked {
+                                color: @primary-color;
+                                box-shadow: none;
+                            }
+                        }
+                    }
+
+                    .ant-calendar-picker {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

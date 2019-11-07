@@ -1,0 +1,150 @@
+// 公共css
+.mac * {
+    font-weight: 300;
+    font-family: 'PingFang', 'MS YaHei', '微软雅黑';
+}
+
+.main-panel {
+    width: 100%;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.modal-table {
+    width: 80%;
+
+    // height: 80%;
+    .ant-modal-body {
+        padding: 0;
+    }
+
+    .ant-modal-footer {
+        text-align: center;
+    }
+}
+
+.ant-page-header-footer {
+    &>.ant-tabs {
+        margin: 0 -16px;
+
+        .ant-tabs-bar .ant-tabs-nav .ant-tabs-tab {
+            padding-top: 12px;
+            margin: 0 4px;
+        }
+    }
+}
+
+// .ant-page-content-table {
+//     &>.ant-tabs>.ant-tabs-bar {
+//         margin: 0;
+//     }
+// }
+
+
+.ant-modal-body {
+    .ant-form-item {
+        margin-bottom: 4px;
+    }
+}
+
+.ant-tabs {
+    &.web-tabs {
+        &>.ant-tabs-bar {
+            margin: 0;
+        }
+    }
+
+    &.tabs-no-bottom {
+        &>.ant-tabs-bar {
+            border-bottom: none;
+        }
+    }
+
+    &.tabs-tab-langtitle {
+        .ant-tabs-tab {
+            padding: 12px 56px;
+        }
+    }
+
+    .ant-tabs-extra-content {
+        position: absolute;
+        right: 0;
+        z-index: 1;
+
+        button {
+            margin-right: 10px;
+            margin-top: 6px;
+        }
+    }
+}
+
+.ant-page-content-table {
+    height: 100%;
+
+    .web-tabs {
+        height: 100%;
+    }
+}
+
+.ant-statistic {
+    &.inline {
+        display: inline;
+        font-size: 14px;
+
+        .ant-statistic-title,
+        .ant-statistic-content {
+            display: inline;
+            font-size: 1em;
+
+            .ant-statistic-content-value-decimal {
+                font-size: 1em;
+            }
+
+            .ant-statistic-content-suffix {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+.ant-tooltip {
+
+    &.ant-tooltip-placement-top,
+    &.ant-tooltip-placement-topLeft,
+    &.ant-tooltip-placement-topRight {
+        .ant-tooltip-arrow {
+            border-right-color: #fff;
+            border-bottom-color: #fff;
+        }
+    }
+
+    &.ant-tooltip-placement-bottom,
+    &.ant-tooltip-placement-bottomLeft,
+    &.ant-tooltip-placement-bottomRight {
+        .ant-tooltip-arrow {
+            border-top-color: #fff;
+            border-left-color: #fff;
+        }
+    }
+
+    .ant-tooltip-inner {
+        color: #78797B;
+        background-color: #fff;
+    }
+
+    .ant-tooltip-arrow::before {
+        background-color: white;
+    }
+}
+
+.ant-select-focused .ant-select-selection,
+.ant-select-selection:focus,
+.ant-select-selection:active,
+.ant-input-number:focus,
+.ant-input-number-focused,
+.ant-cascader-picker:focus .ant-cascader-input,
+.ant-input:focus {
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015) !important;
+}
